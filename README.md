@@ -1,6 +1,3 @@
-# Tugas-Project-Data-Mining
-Diamond-Prediction-with-Machine Learning
-
 # 1. BUSINESS UNDERSTANDING
 
 
@@ -17,7 +14,7 @@ Diamond-Prediction-with-Machine Learning
 !pip install xgboost
 
 import warnings
-warnings.filterwarnings('ignore')
+warnings.filterwarnings('iganore')
 
 import numpy as np 
 import pandas as pd 
@@ -432,144 +429,144 @@ df.sample(10)
   </thead>
   <tbody>
     <tr>
-      <th>52128</th>
-      <td>52129</td>
-      <td>0.60</td>
+      <th>47592</th>
+      <td>47593</td>
+      <td>0.51</td>
       <td>Ideal</td>
-      <td>G</td>
-      <td>VVS2</td>
-      <td>61.3</td>
-      <td>56.0</td>
-      <td>2467</td>
-      <td>5.43</td>
-      <td>5.46</td>
-      <td>3.34</td>
-    </tr>
-    <tr>
-      <th>20136</th>
-      <td>20137</td>
-      <td>1.22</td>
-      <td>Ideal</td>
-      <td>H</td>
+      <td>E</td>
       <td>VS2</td>
-      <td>61.3</td>
+      <td>60.7</td>
       <td>56.0</td>
-      <td>8596</td>
-      <td>6.85</td>
-      <td>6.88</td>
-      <td>4.21</td>
-    </tr>
-    <tr>
-      <th>50552</th>
-      <td>50553</td>
-      <td>0.73</td>
-      <td>Ideal</td>
-      <td>F</td>
-      <td>SI2</td>
-      <td>62.1</td>
-      <td>56.0</td>
-      <td>2276</td>
-      <td>5.77</td>
-      <td>5.80</td>
-      <td>3.59</td>
-    </tr>
-    <tr>
-      <th>45156</th>
-      <td>45157</td>
-      <td>0.50</td>
-      <td>Ideal</td>
-      <td>D</td>
-      <td>SI1</td>
-      <td>61.6</td>
-      <td>55.0</td>
-      <td>1654</td>
-      <td>5.13</td>
-      <td>5.10</td>
+      <td>1877</td>
+      <td>5.17</td>
+      <td>5.21</td>
       <td>3.15</td>
     </tr>
     <tr>
-      <th>12120</th>
-      <td>12121</td>
-      <td>0.91</td>
+      <th>48550</th>
+      <td>48551</td>
+      <td>0.54</td>
       <td>Premium</td>
-      <td>D</td>
+      <td>F</td>
       <td>VS2</td>
       <td>62.0</td>
-      <td>58.0</td>
-      <td>5167</td>
-      <td>6.20</td>
-      <td>6.15</td>
-      <td>3.83</td>
+      <td>59.0</td>
+      <td>1989</td>
+      <td>5.22</td>
+      <td>5.16</td>
+      <td>3.22</td>
     </tr>
     <tr>
-      <th>25150</th>
-      <td>25151</td>
-      <td>1.50</td>
-      <td>Premium</td>
+      <th>44497</th>
+      <td>44498</td>
+      <td>0.51</td>
+      <td>Ideal</td>
       <td>G</td>
       <td>VS1</td>
-      <td>60.8</td>
-      <td>61.0</td>
-      <td>13720</td>
-      <td>7.36</td>
-      <td>7.29</td>
-      <td>4.45</td>
+      <td>61.4</td>
+      <td>54.0</td>
+      <td>1599</td>
+      <td>5.15</td>
+      <td>5.18</td>
+      <td>3.17</td>
     </tr>
     <tr>
-      <th>36556</th>
-      <td>36557</td>
-      <td>0.40</td>
-      <td>Premium</td>
-      <td>E</td>
+      <th>49350</th>
+      <td>49351</td>
+      <td>0.70</td>
+      <td>Ideal</td>
+      <td>J</td>
       <td>SI1</td>
-      <td>62.2</td>
-      <td>58.0</td>
-      <td>945</td>
-      <td>4.74</td>
-      <td>4.71</td>
-      <td>2.94</td>
+      <td>61.0</td>
+      <td>56.0</td>
+      <td>2096</td>
+      <td>5.69</td>
+      <td>5.82</td>
+      <td>3.51</td>
     </tr>
     <tr>
-      <th>12336</th>
-      <td>12337</td>
-      <td>1.10</td>
+      <th>46914</th>
+      <td>46915</td>
+      <td>0.70</td>
+      <td>Premium</td>
+      <td>G</td>
+      <td>SI2</td>
+      <td>59.0</td>
+      <td>60.0</td>
+      <td>1814</td>
+      <td>5.84</td>
+      <td>5.82</td>
+      <td>3.44</td>
+    </tr>
+    <tr>
+      <th>21907</th>
+      <td>21908</td>
+      <td>1.71</td>
+      <td>Very Good</td>
+      <td>H</td>
+      <td>VS1</td>
+      <td>63.5</td>
+      <td>59.0</td>
+      <td>9974</td>
+      <td>7.59</td>
+      <td>7.52</td>
+      <td>4.80</td>
+    </tr>
+    <tr>
+      <th>15340</th>
+      <td>15341</td>
+      <td>1.01</td>
+      <td>Very Good</td>
+      <td>F</td>
+      <td>VS2</td>
+      <td>61.5</td>
+      <td>57.0</td>
+      <td>6159</td>
+      <td>6.40</td>
+      <td>6.48</td>
+      <td>3.96</td>
+    </tr>
+    <tr>
+      <th>43189</th>
+      <td>43190</td>
+      <td>0.46</td>
       <td>Ideal</td>
       <td>G</td>
-      <td>SI1</td>
-      <td>62.3</td>
-      <td>56.0</td>
-      <td>5226</td>
-      <td>6.64</td>
-      <td>6.58</td>
-      <td>4.12</td>
-    </tr>
-    <tr>
-      <th>3560</th>
-      <td>3561</td>
-      <td>1.01</td>
-      <td>Premium</td>
-      <td>H</td>
-      <td>SI1</td>
-      <td>59.2</td>
-      <td>58.0</td>
-      <td>3417</td>
-      <td>6.58</td>
-      <td>6.56</td>
-      <td>3.89</td>
-    </tr>
-    <tr>
-      <th>47408</th>
-      <td>47409</td>
-      <td>0.50</td>
-      <td>Ideal</td>
-      <td>F</td>
-      <td>VVS2</td>
-      <td>62.3</td>
+      <td>VVS1</td>
+      <td>62.2</td>
       <td>57.0</td>
-      <td>1850</td>
-      <td>5.06</td>
-      <td>5.08</td>
-      <td>3.16</td>
+      <td>1393</td>
+      <td>4.93</td>
+      <td>4.98</td>
+      <td>3.08</td>
+    </tr>
+    <tr>
+      <th>423</th>
+      <td>424</td>
+      <td>0.99</td>
+      <td>Fair</td>
+      <td>J</td>
+      <td>SI1</td>
+      <td>55.0</td>
+      <td>61.0</td>
+      <td>2812</td>
+      <td>6.72</td>
+      <td>6.67</td>
+      <td>3.68</td>
+    </tr>
+    <tr>
+      <th>43641</th>
+      <td>43642</td>
+      <td>0.50</td>
+      <td>Premium</td>
+      <td>F</td>
+      <td>VS2</td>
+      <td>60.6</td>
+      <td>59.0</td>
+      <td>1433</td>
+      <td>5.13</td>
+      <td>5.03</td>
+      <td>3.08</td>
     </tr>
   </tbody>
 </table>
@@ -659,8 +656,8 @@ plt.show()
 ```
 
 
-
-<img src="
+    
+![png](output_16_0.png)
     
 
 
@@ -1245,8 +1242,8 @@ for i, model in enumerate(pipelines):
 
     LinearRegression: 1383.854012 
     Lasso: 1366.991298 
-    DecisionTree: 739.289291 
-    RandomForest: 548.841032 
+    DecisionTree: 741.464245 
+    RandomForest: 548.568621 
     KNeighbors: 816.559263 
     XGBRegressor: 548.346850 
     
@@ -1266,9 +1263,32 @@ print("Adjusted R^2:",1 - (1-metrics.r2_score(y_test, pred))*(len(y_test)-1)/(le
     
 
 
+```python
+# Membuat tabel perbandingan hasil prediksi dan data asli
+comparison_df = pd.DataFrame({'Actual': y_test, 'Predicted': pred})
+
+# Menampilkan tabel
+print(comparison_df)
+
+```
+
+           Actual     Predicted
+    31712     771    865.756165
+    19865    8419   8786.837891
+    42610     505    522.002380
+    29785     709    710.018433
+    20340    8739  10010.160156
+    ...       ...           ...
+    50799    2306   2285.798828
+    40238    1124   1236.950806
+    23860   11951  11353.575195
+    11809    5090   4685.851562
+    39776    1094    948.306824
+    
+    [10782 rows x 2 columns]
+    
 
 
 ```python
 
 ```
-
