@@ -657,7 +657,7 @@ plt.show()
 
 
 <img src="https://github.com/AdityaJuliyawannn/Tugas-Project-Data-Mining/blob/main/cut%20for%20price.png">
-![png](output_16_0.png)
+
     
 
 
@@ -683,8 +683,8 @@ plt.show()
 ```
 
 
-    
-![png](output_17_0.png)
+<img src="https://github.com/AdityaJuliyawannn/Tugas-Project-Data-Mining/blob/main/color%20for%20price.png">    
+
     
 
 
@@ -710,8 +710,7 @@ plt.show()
 ```
 
 
-    
-![png](output_18_0.png)
+<img src="https://github.com/AdityaJuliyawannn/Tugas-Project-Data-Mining/blob/main/clarity%20for%20price.png">        
     
 
 
@@ -870,8 +869,9 @@ ax = sns.pairplot(df, hue="cut", palette=cols)
 ```
 
 
+<img src="https://github.com/AdityaJuliyawannn/Tugas-Project-Data-Mining/blob/main/bivariat.png">        
     
-![png](output_23_0.png)
+
     
 
 
@@ -891,8 +891,9 @@ plt.show()
 ```
 
 
+<img src="https://github.com/AdityaJuliyawannn/Tugas-Project-Data-Mining/blob/main/price%20vs%20y.png">        
     
-![png](output_26_0.png)
+
     
 
 
@@ -904,8 +905,9 @@ plt.show()
 ```
 
 
+<img src="https://github.com/AdityaJuliyawannn/Tugas-Project-Data-Mining/blob/main/price%20vs%20z.png">        
     
-![png](output_27_0.png)
+
     
 
 
@@ -917,8 +919,9 @@ plt.show()
 ```
 
 
+<img src="https://github.com/AdityaJuliyawannn/Tugas-Project-Data-Mining/blob/main/price%20vs%20depth.png">        
     
-![png](output_28_0.png)
+
     
 
 
@@ -930,8 +933,9 @@ plt.show()
 ```
 
 
+<img src="https://github.com/AdityaJuliyawannn/Tugas-Project-Data-Mining/blob/main/price%20vs%20table.png">        
     
-![png](output_29_0.png)
+
     
 
 
@@ -1175,8 +1179,9 @@ sns.heatmap(corrmat,cmap=cols,annot=True)
 
 
 
+<img src="https://github.com/AdityaJuliyawannn/Tugas-Project-Data-Mining/blob/main/matriks%20korelasi.png">        
     
-![png](output_40_1.png)
+
     
 
 
