@@ -656,7 +656,7 @@ plt.show()
 ```
 
 
-    
+    < png src="https://github.com/AdityaJuliyawannn/Tugas-Project-Data-Mining/blob/main/cut%20for%20price.png">
 ![png](output_16_0.png)
     
 
